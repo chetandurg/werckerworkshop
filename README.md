@@ -24,8 +24,7 @@ To build the application you will need to create a few accounts if you do not al
  For the purpose of this workshop it is not required to do this You can find instructions on how to build an Oracle Jet application [locally here](http://www.oracle.com/webfolder/technetwork/jet/globalGetStarted.html)
  
 # Step 3: Modify the Application
-First lets change some text in the application. Go to the Index.html page and change 
-Hello Dubai to Hello "Your Name". So for me I would change it to Hello Martin.
+Go to the file src/index.html and change the title of the page on line 29 to ```<title>New Audience Analyser</title>```
 
 # Step 4: Check the application in
 
@@ -242,7 +241,7 @@ This will now make the *deploy* pipeline part of you workflow.
  
  ``` 
 git add .
-git commit -"Making Title Change for the second time"
+git commit -"Making Title Change for the third time"
 git push 
 ```
 
