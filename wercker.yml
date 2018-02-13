@@ -22,7 +22,7 @@ push-release:
         rm -rf /usr/share/nginx/html/*
         mv web/* /usr/share/nginx/html
     - internal/docker-push:
-        repository: thebeebs/howareyou
+        repository: thebeebs/werckerworkshop
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
         registry: https://registry.hub.docker.com/v2
